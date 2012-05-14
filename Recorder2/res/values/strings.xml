@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, Recorder2Activity!</string>
+    <string name="app_name">Audio-Recorder 2</string>
+    
+    <string name="BtRecStart">Begin Recording</string>
+    <string name="BtRecStop">Stop Recording</string>
+    <string name="BtPlayStart">Play Recording</string>
+    <string name="BtPlayStop">Stop Playing Recording</string>
+    
+
+</resources>

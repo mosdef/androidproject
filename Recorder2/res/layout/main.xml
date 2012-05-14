@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+   
+        
+     <TextView
+        android:id="@+id/textView"
+        android:layout_width="201dp"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+     
+    <Button 
+        android:id="@+id/BtRecStart" 
+       android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:text="@string/BtRecStart" />
+    
+     <Button 
+        android:id="@+id/BtRecStop" 
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="02dp"
+        android:text="@string/BtRecStop" />
+     
+      <Button 
+        android:id="@+id/BtPlayStart" 
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="02dp"
+        android:text="@string/BtPlayStart" />
+      
+       <Button 
+        android:id="@+id/BtPlayStop" 
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="02dp"
+        android:text="@string/BtPlayStop" />
+
+       <Spinner
+           android:id="@+id/spinner1"
+           android:layout_width="200dp"
+           android:layout_gravity="center_horizontal"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="05dp" />
+
+</LinearLayout>
